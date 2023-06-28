@@ -19,25 +19,30 @@ document.addEventListener('DOMContentLoaded', (event) => {
         menu.classList.toggle('menu-open');
     });
 
-    // // loop through all option elements
-    // options.forEach(option => {
-    //     // add click event to option element
-    //     option.addEventListener('click', (event) => {
-    //     event.preventDefault(); // prevent the default action
-    //     // change selected inner text to clicked option inner text
-    //     selected.innerText = option.textContent;
-    //     // remove the rotate styles from caret
-    //     caret.classList.remove('caret-rotate');
-    //     // remove open styles from the menu element
-    //     menu.classList.remove('menu-open');
-    //     // remove active class from all option elements
-    //     options.forEach(option => {
-    //         option.classList.remove('active');
-    //     });
-    //     // add active class to clicked option element
-    //     option.classList.add('active');
-    //     });
-    // });
+    // loop through all option elements
+    options.forEach(option => {
+        // add click event to option element
+        option.addEventListener('click', (event) => {
+        event.preventDefault(); // prevent the default action
+        // change selected inner text to clicked option inner text
+        selected.innerText = option.textContent;
+        // remove the rotate styles from caret
+        caret.classList.remove('caret-rotate');
+        // remove open styles from the menu element
+        menu.classList.remove('menu-open');
+        // remove active class from all option elements
+        options.forEach(option => {
+            option.classList.remove('active');
+        });
+        // add active class to clicked option element
+        option.classList.add('active');
+
+        // scroll to the corresponding section
+        const targetSection = option.getAttribute('data-target');
+        const targetElement = document.querySelector(targetSection);
+        targetElement.scrollIntoView({ behavior: 'smooth' });
+        });
+    });
     });
 });
 

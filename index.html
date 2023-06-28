@@ -16,17 +16,17 @@
       <span class="selected"></span>
       <div class="caret"></div> <!-- added a caret div -->
       <ul class="menu">
-        <li>
+        <li data-target="#languages">
           <a href="" class="nav-anchor link-hover link-hover-effect-black">
             Languages
           </a>
         </li>
-        <li>
+        <li data-target="#projects">
           <a href="" class="nav-anchor link-hover link-hover-effect-black">
             Projects
           </a>
         </li>
-        <li>
+        <li data-target="#footer">
           <a href="" class="nav-anchor link-hover link-hover-effect-black">
             Contact
           </a>
@@ -51,19 +51,20 @@
                         I'm a <strong class="text--green">full-stack</strong> Python developer in the making.
                     </p>
                     <div class="about-me-link">
-                        <a href="https://www.linkedin.com/in/austin-beveridge-2ab33515b/" target="_blank" class="about-link">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                        <a href="https://github.com/BrownTroutCoding" target="_blank" class="about-link">
-                            <i class="fa-brands fa-github"></i>
-                        </a>
-                        <a href="mailto:browntroutcoding@gmail.com" target="_blank" class="about-link">
-                            <i class="fa-solid fa-envelope"></i>
-                        </a>
-                        <a href="#" target="_blank" class="about-link">
-                            <i class="fa-solid fa-file"></i>
-                        </a>
+                      <a href="https://www.linkedin.com/in/austin-beveridge-2ab33515b/" target="_blank" class="about-link">
+                          <i class="fa-brands fa-linkedin"></i>
+                      </a>
+                      <a href="https://github.com/BrownTroutCoding" target="_blank" class="about-link">
+                          <i class="fa-brands fa-github"></i>
+                      </a>
+                      <button id="copyEmailBtn" class="about-link">
+                          <i class="fa-solid fa-envelope"></i>
+                      </button>
+                      <a href="#" target="_blank" class="about-link">
+                          <i class="fa-solid fa-file"></i>
+                      </a>
                     </div>
+                  
                     <!-- <div class="loader">
                         <h1>Brown Trout Coding</h1>
                     </div> -->
@@ -183,7 +184,7 @@
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer id="footer">
         <div class="row footer-row">
             <a href="#" class="footer-anchor">
                 <figure class="footer-logo">
@@ -201,11 +202,11 @@
               link-hover-effect
               link-hover-effect-white
             " target="">LinkedIn</a>
-            <a href="mailto:browntroutcoding@gmail.com" target="_blank" class="
+            <button id="copyEmailBtnFooter" class="
               footer-link
               link-hover-effect
               link-hover-effect-white
-            " target="">Email</a>
+            ">Email</button>
             <a href="./assets/.pdf" target="" class="
               footer-link
               link-hover-effect
@@ -215,28 +216,7 @@
           <div class="footer-name">Brown Trout Coding</div>
         </div>
     </footer>
+
+<script src="copyEmail.js"></script>
 </body>
 </html>
-
-
-<!-- <div class="title">Brown Trout Coding</div>
-<ul class="dropdown">
-    <li>
-        <a href="" class="
-        nav-anchor
-        link-hover
-        link-hover-effect-black">Languages</a>
-    </li>
-    <li>
-        <a href="" class="
-        nav-anchor
-        link-hover
-        link-hover-effect-black">Projects</a>
-    </li>
-    <li>
-        <a href="" class="
-        nav-link-anchor
-        nav-link-primary
-        ">Contact</a>
-    </li>
-</ul> -->
