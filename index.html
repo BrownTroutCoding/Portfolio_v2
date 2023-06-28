@@ -10,213 +10,215 @@
 </head>
 
 <script src="dropdown.js"></script>
-<nav>
-  <div class="dropdown">
-    <div class="select">
-      <span class="selected"></span>
-      <div class="caret"></div> <!-- added a caret div -->
-      <ul class="menu">
-        <li data-target="#languages">
-          <a href="" class="nav-anchor link-hover link-hover-effect-black">
-            Languages
-          </a>
-        </li>
-        <li data-target="#projects">
-          <a href="" class="nav-anchor link-hover link-hover-effect-black">
-            Projects
-          </a>
-        </li>
-        <li data-target="#footer">
-          <a href="" class="nav-anchor link-hover link-hover-effect-black">
-            Contact
-          </a>
-        </li>
-      </ul>
+  <nav>
+    <!-- <div class="avatar">
+      <img src="static/browntroutcodingavatar.jpg" alt="avatar" class="avatar-image">
+    </div> -->
+    <div class="dropdown">
+      <div class="select">
+        <span class="selected"></span>
+        <div class="caret"></div>
+        <ul class="menu">
+          <li data-target="#languages">
+            <a href="" class="nav-anchor link-hover link-hover-effect-black">
+              Languages
+            </a>
+          </li>
+          <li data-target="#projects">
+            <a href="" class="nav-anchor link-hover link-hover-effect-black">
+              Projects
+            </a>
+          </li>
+          <li data-target="#footer">
+            <a href="" class="nav-anchor link-hover link-hover-effect-black">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
-<body>
-    <section id="body">
-        <div class="flex flex-1">
-            <div class="about-me row">
-                <div class="about-me-container">
-                    <figure class="about-me-picture">
-                        <img class="headshot" src="static/headshot.jpg" alt="headshot">
-                    </figure>
-                    <h1 class="about-me-title">
-                        Hello, I'm <span class="text--green">Austin Beveridge</span>.
-                    </h1>
-                    <p  class="about-me-p">
-                        I'm a <strong class="text--green">full-stack</strong> Python developer in the making.
-                    </p>
-                    <div class="about-me-link">
-                      <a href="https://www.linkedin.com/in/austin-beveridge-2ab33515b/" target="_blank" class="about-link">
-                          <i class="fa-brands fa-linkedin"></i>
-                      </a>
-                      <a href="https://github.com/BrownTroutCoding" target="_blank" class="about-link">
-                          <i class="fa-brands fa-github"></i>
-                      </a>
-                      <button id="copyEmailBtn" class="about-link">
-                          <i class="fa-solid fa-envelope"></i>
-                      </button>
-                      <a href="#" target="_blank" class="about-link">
-                          <i class="fa-solid fa-file"></i>
-                      </a>
-                    </div>
-                  
-                    <!-- <div class="loader">
-                        <h1>Brown Trout Coding</h1>
-                    </div> -->
-                </div>
-            </div>
-        </div>
-    </section>
+  <body>
+      <section id="body">
+          <div class="flex flex-1">
+              <div class="about-me row">
+                  <div class="about-me-container">
+                      <figure class="about-me-picture">
+                          <img class="headshot" src="static/headshot.jpg" alt="headshot">
+                      </figure>
+                      <h1 class="about-me-title">
+                          Hello, I'm <span class="text--green">Austin Beveridge</span>.
+                      </h1>
+                      <p  class="about-me-p">
+                          I'm a <strong class="text--green">full-stack</strong> Python developer in the making.
+                      </p>
+                      <div class="about-me-link">
+                        <a href="https://www.linkedin.com/in/austin-beveridge-2ab33515b/" target="_blank" class="about-link">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/BrownTroutCoding" target="_blank" class="about-link">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <button id="copyEmailBtn" class="about-link">
+                            <i class="fa-solid fa-envelope"></i>
+                        </button>
+                        <a href="#" target="_blank" class="about-link">
+                            <i class="fa-solid fa-file"></i>
+                        </a>
+                      </div>
+                    
+                      <!-- <div class="loader">
+                          <h1>Brown Trout Coding</h1>
+                      </div> -->
+                  </div>
+              </div>
+          </div>
+      </section>
 
-    <section id="languages">
-        <div class="container">
-          <div class="row">
-            <h1 class="section-title"> <span class="text-blue">Tech Stack</span></h1>
-            <div class="language-list">
-                <div class="language">
+      <section id="languages">
+          <div class="container">
+            <div class="row">
+              <h1 class="section-title"> <span class="text-blue">Tech Stack</span></h1>
+              <div class="language-list">
+                  <div class="language">
+                      <figure class="language-img-wrap">
+                        <img
+                          src="static/python.png"
+                          alt="Python Logo" class="language-img" />
+                      </figure>
+                      <span class="language-name">Python</span>
+                  </div>
+                  <div class="language">
                     <figure class="language-img-wrap">
                       <img
-                        src="static/python.png"
-                        alt="Python Logo" class="language-img" />
+                        src="static/postgreSQL.png"
+                        alt="PostgreSQL Logo" class="language-img" />
                     </figure>
-                    <span class="language-name">Python</span>
-                </div>
-                <div class="language">
+                    <span class="language-name">PostgreSQL</span>
+                  </div>
+                  <div class="language">
+                    <figure class="language-img-wrap">
+                      <img
+                        src="static/Flask.png"
+                        alt="full-stack Logo" class="language-img" />
+                    </figure>
+                    <span class="language-name">Flask</span>
+                  </div>
+                  <div class="language">
+                    <figure class="language-img-wrap">
+                      <img
+                        src="static/html-5.png"
+                        alt="Html Logo" class="language-img" />
+                    </figure>
+                    <span class="language-name">HTML</span>
+                  </div>
+                  <div class="language">
+                    <figure class="language-img-wrap">
+                      <img src="static/css-3.png" alt="CSS Logo"
+                        class="language-img" />
+                    </figure>
+                    <span class="language-name">CSS</span>
+                  </div>
+                  <div class="language">
+                    <figure class="language-img-wrap">
+                      <img src="static/JS.png" alt="JavaScript Logo"
+                        class="language-img" />
+                    </figure>
+                    <span class="language-name">JavaScript</span>
+                  </div>
+                  <div class="language">
                   <figure class="language-img-wrap">
-                    <img
-                      src="static/postgreSQL.png"
-                      alt="PostgreSQL Logo" class="language-img" />
-                  </figure>
-                  <span class="language-name">PostgreSQL</span>
-                </div>
-                <div class="language">
-                  <figure class="language-img-wrap">
-                    <img
-                      src="static/Flask.png"
-                      alt="full-stack Logo" class="language-img" />
-                  </figure>
-                  <span class="language-name">Flask</span>
-                </div>
-                <div class="language">
-                  <figure class="language-img-wrap">
-                    <img
-                      src="static/html-5.png"
-                      alt="Html Logo" class="language-img" />
-                  </figure>
-                  <span class="language-name">HTML</span>
-                </div>
-                <div class="language">
-                  <figure class="language-img-wrap">
-                    <img src="static/css-3.png" alt="CSS Logo"
+                    <img src="static/react.png" alt="React Logo"
                       class="language-img" />
                   </figure>
-                  <span class="language-name">CSS</span>
+                  <span class="language-name">React</span>
                 </div>
-                <div class="language">
-                  <figure class="language-img-wrap">
-                    <img src="static/JS.png" alt="JavaScript Logo"
-                      class="language-img" />
-                  </figure>
-                  <span class="language-name">JavaScript</span>
-                </div>
-                <div class="language">
-                <figure class="language-img-wrap">
-                  <img src="static/react.png" alt="React Logo"
-                    class="language-img" />
-                </figure>
-                <span class="language-name">React</span>
               </div>
             </div>
           </div>
-        </div>
-    </section>
+      </section>
 
-    <!-- projects -->
-    <section id="projects">
-        <div class="container">
-          <div class="row">
-            <h1 class="section-title"><span class="text-blue">Projects</span></h1>
-            <ul class="project-list">
-              <li class="project">
-                <div class="project-wrap">
-                  <img src="static/scoutfortrout-static.JPG" class="project-img" alt="Fly Fishing Web App">
-                  <div class="project-description">
-                      <h3 class="project-title">Scout For Trout</h3>
-                      <h4 class="project-languages">
-                          Python, Flask, PostgreSQL, JS, React
-                      </h4>
-                      <p class="project-description-p">
-                        Fly fishing web application that allows users to check river conditions, and save their favorite fishing locations. Users can sign up/sign in using google authentication which will store their personal fishing locations. On the home page, users can get quick information using the USGS API to check river flow and temperatures before planning a fishing trip.
-                      </p>
-                      <div class="project-link">
-                          <a href="https://github.com/BrownTroutCoding/ScoutForTrout-Flask" target="_blank" class="project-link">
-                          <i class="fab fa-github"></i>
-                      </div>
+      <!-- projects -->
+      <section id="projects">
+          <div class="container">
+            <div class="row">
+              <h1 class="section-title"><span class="text-blue">Projects</span></h1>
+              <ul class="project-list">
+                <li class="project">
+                  <div class="project-wrap">
+                    <img src="static/scoutfortrout-static.JPG" class="project-img" alt="Fly Fishing Web App">
+                    <div class="project-description">
+                        <h3 class="project-title">Scout For Trout</h3>
+                        <h4 class="project-languages">
+                            Python, Flask, PostgreSQL, JS, React
+                        </h4>
+                        <p class="project-description-p">
+                          Fly fishing web application that allows users to check river conditions, and save their favorite fishing locations. Users can sign up/sign in using google authentication which will store their personal fishing locations. On the home page, users can get quick information using the USGS API to check river flow and temperatures before planning a fishing trip.
+                        </p>
+                        <div class="project-link">
+                            <a href="https://github.com/BrownTroutCoding/ScoutForTrout-Flask" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </div>
+                    </div>
                   </div>
-                </div>
-              </li>
-              <li class="project">
-                <div class="project-wrap">
-                  <img src="static/yellowstone-project.JPG" class="project-img" alt="Yellowstone website landing page">
-                  <div class="project-description">
-                      <h3 class="project-title">Yellowstone Landing Page</h3>
-                      <h4 class="project-languages">
-                          Html, CSS
-                      </h4>
-                      <p class="project-description-p">
-                          A simple landing page using Bootstrap 5.
-                      </p>
-                      <div class="project-link">
-                          <a href="https://github.com/BrownTroutCoding/Park-website.git" target="_blank" class="project-link">
-                          <i class="fab fa-github"></i>
-                      </div>
+                </li>
+                <li class="project">
+                  <div class="project-wrap">
+                    <img src="static/yellowstone-project.JPG" class="project-img" alt="Yellowstone website landing page">
+                    <div class="project-description">
+                        <h3 class="project-title">Yellowstone Landing Page</h3>
+                        <h4 class="project-languages">
+                            Html, CSS
+                        </h4>
+                        <p class="project-description-p">
+                            A simple landing page using Bootstrap 5.
+                        </p>
+                        <div class="project-link">
+                            <a href="https://github.com/BrownTroutCoding/Park-website.git" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </div>
+                    </div>
                   </div>
-                </div>
-              </li>
-            </ul>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-    </section>
+      </section>
 
-    <!-- Footer -->
-    <footer id="footer">
-        <div class="row footer-row">
-            <a href="#" class="footer-anchor">
-                <figure class="footer-logo">
-                  <img src="static/browntroutcodingavatar.jpg" class="footer-logo" alt="">
-                </figure>
+      <!-- Footer -->
+      <footer id="footer">
+          <div class="row footer-row">
+              <a href="#" class="footer-anchor">
+                  <figure class="footer-logo">
+                    <img src="static/browntroutcodingavatar.jpg" class="footer-logo" alt="">
+                  </figure>
               </a>
-          <div class="footer-list">
-            <a href="https://github.com/BrownTroutCoding" target="_blank" class="
-              footer-link
-              link-hover-effect
-              link-hover-effect-white
-            " target="">GitHub</a>
-            <a href="https://www.linkedin.com/in/austin-beveridge-2ab33515b/" target="_blank" class="
-              footer-link
-              link-hover-effect
-              link-hover-effect-white
-            " target="">LinkedIn</a>
-            <button id="copyEmailBtnFooter" class="
-              footer-link
-              link-hover-effect
-              link-hover-effect-white
-            ">Email</button>
-            <a href="./assets/.pdf" target="" class="
-              footer-link
-              link-hover-effect
-              link-hover-effect-white
-            " target="">Resume</a>
+            <div class="footer-list">
+              <a href="https://github.com/BrownTroutCoding" target="_blank" class="
+                footer-link
+                link-hover-effect
+                link-hover-effect-white
+              " target="">GitHub</a>
+              <a href="https://www.linkedin.com/in/austin-beveridge-2ab33515b/" target="_blank" class="
+                footer-link
+                link-hover-effect
+                link-hover-effect-white
+              " target="">LinkedIn</a>
+              <button id="copyEmailBtnFooter" class="
+                footer-link
+                link-hover-effect
+                link-hover-effect-white
+              ">Email</button>
+              <a href="./assets/.pdf" target="" class="
+                footer-link
+                link-hover-effect
+                link-hover-effect-white
+              " target="">Resume</a>
+            </div>
           </div>
-          <div class="footer-name">Brown Trout Coding</div>
-        </div>
-    </footer>
+      </footer>
 
-<script src="copyEmail.js"></script>
-</body>
+  <script src="copyEmail.js"></script>
+  </body>
 </html>
