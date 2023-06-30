@@ -448,6 +448,7 @@ align-items: center;
 
 .project-p {
   margin: 16px 0;
+  text-decoration: none;
 }
 
 .project-link {
