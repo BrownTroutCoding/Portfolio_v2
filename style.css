@@ -226,6 +226,7 @@ li {
 .about-me-link {
 display: flex;
 align-items: center;
+padding-right: 5;
 }
 
 .headshot {

@@ -1,6 +1,6 @@
 const copyEmailBtn = document.getElementById('copyEmailBtn');
 const copyEmailBtnFooter = document.getElementById('copyEmailBtnFooter'); // New ID
-const email = 'browntroutcoding@gmail.com';
+const email = 'Austinbev.dev@gmail.com';
 
 const copyEmailToClipboard = (btn) => {
   navigator.clipboard.writeText(email)
